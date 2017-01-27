@@ -1,0 +1,17 @@
+#name,type/templates,divider/values,unit,comment
+# Bartl TEM,,,,
+group,UCH,,,Gruppe
+value,BI0:7,,,Wert
+type,HEX,,,Datentyp
+unit,HEX,,,Einheit
+maxs,SIN,,,Maximum
+mins,SIN,,,Minimum
+command,group;value;type;unit,,,Kommando
+parameter1,command;maxs;mins,,,Parameter
+parameter2,command;type;type,,,Parameter
+temp10,SIN,10,°C,Temperatur (Teiler 10)
+temp2,D2B,,°C,Temperatur (Teiler 256)
+btime,BTI,,,Binary Time
+bdate,BDA,,,Binary Date
+status,UCH,,,Status
+hcd100,HCD,100,h,Betriebsstunden (Teiler 10)
