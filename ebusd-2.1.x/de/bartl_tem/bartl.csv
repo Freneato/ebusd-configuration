@@ -90,3 +90,8 @@ r,,HK_status,HK Status Heizkreisregelung 02-051,,,,7785000a,parameters,,paramete
 *r,hk_param2,,,,15,0621,,,,,,,,,,,,,,,,,,,,,,,,,
 # Globalfunktionen Ping für MasterFB Display,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Globalfunktionen Menü Einstellungen MasterFB (Fachmann),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# Passwort etc.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*r,globals,,,,15,0621,,,,,,,,,,,,,,,,,,,,,,,,,
+r,,parameter_level,Ebene Einsteller 04-043,,,,04ab004a,parameters,,parameter1,,,,status,,status,0=User Level;2=Expert Level,,,,,,,,,,,,,,
+*w,globals,,,,10,0623,,,,,,,,,,,,,,,,,,,,,,,,,
+w,,global_passwort,Globales Passwort setzen 256 04-042,,,,04aa0040,password,,UIN,,,256,,,,,,,,,,,,,,,,,,
