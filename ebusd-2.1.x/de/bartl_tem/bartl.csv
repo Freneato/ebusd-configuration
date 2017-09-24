@@ -1,6 +1,6 @@
 #type,circuit,name,comment,QQ,ZZ,PBSB,ID,field1,part,type/templates,divider/values,unit,comment,field2,part,type/templates,divider/values,unit,comment,field3,part,type/templates,divider/values,unit,comment,field4,part,type/templates,divider/values,unit,comment
-*[expertlevel],globals,parameter_level,,status,,Expert Level,,,,,,,,,,,,,,,,,,,,,,,,,
-*[userlevel],globals,parameter_level,,status,,User Level,,,,,,,,,,,,,,,,,,,,,,,,,
+*[expertlevel],globals,parameter_level,,status,,'Expert Level',,,,,,,,,,,,,,,,,,,,,,,,,
+*[userlevel],globals,parameter_level,,status,,'User Level',,,,,,,,,,,,,,,,,,,,,,,,,
 # Wärmepumpe Ping für MasterFB Display,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 *r,wp_ping,,,,15,0621,,,,,,,,,,,,,,,,,,,,,,,,,
 r,,vl_temp_ist,Vorlauftemperatur Wärmeerzeuger 00-007,,,,00870042,parameters,,parameter1,,,,temp,,temp10,,,Wärmeerzeuger Vorlauftemperatur,,,,,,,,,,,,
